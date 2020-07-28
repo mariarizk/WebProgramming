@@ -1,0 +1,188 @@
+/*Navigation bar*/
+
+.nav{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	background-color:#b30000;
+	position:fixed;
+	width:98%;
+	top:0;
+	height:10%;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+}
+
+#logo{
+	float:left;
+	position:sticky;
+	margin-top:0;
+	border-radius: 30px;
+	border:none;
+	margin-right:15px;
+	background-color:white;
+	height:10%;
+}
+
+.nav li{
+	float:left;
+	border:solid;
+	border-color:#eb9494;
+	border-radius: 30px;    
+	margin-top:5px;
+	margin-right:7px;
+}
+
+.nav li a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	padding: 15px 15px;
+	border-radius: 30px; 
+	
+}
+
+.nav li a:hover{
+	background-color:#cc0000;	
+	height:10%;
+}
+
+
+.word{
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-weight:bold;
+	font-size:100px;
+	text-align:center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+
+#intro{
+	color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+	padding-top:3px;
+	width:100%;
+	font-weight:normal;
+}
+
+.logo2{
+	margin-bottom:50px;
+}
+
+
+div span{
+	color:black;
+	font-family: "Times New Roman", Times, serif;
+	font-size:50px;
+	font-weight:bold;
+
+}
+
+span{
+	color:white;
+	font-family: "Times New Roman", Times, serif;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+
+}
+
+button{
+	cursor: pointer;
+	border-radius:50%;
+	background-color:#fbeaea;
+	position:absolute;
+	top:540px;
+	right:50%;
+	padding:10px;
+	border:none;
+}
+button:after{
+	content: ' \02C5';
+	color:white;
+	font-size:40px;
+}
+
+button:hover{
+	background-color:#b30000;
+}
+
+.slideshow{
+	padding:15px;
+}
+
+#vision{
+	float:right;
+	background-color:#e26969;
+	color:white;
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	padding-top:3px;
+	font-weight:normal;
+	width:50%;
+	height:200px;
+}
+
+#mission{
+	float:left;
+	background-color:#d62929;
+	color:white;
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	padding-top:3px;
+	font-weight:normal;
+	width:50%;
+	height:200px;
+
+}
+/**footer*/
+.bot{
+	float:right;
+	background-color:#b30000;
+	width:100%;
+	bottom:0;
+	height:150px;;
+}
+.bot ul{
+	padding-right:50px;;
+}
+.bot li{
+	list-style-type:none;
+	padding-top:45px;
+	float:left;
+	margin-top:5px;
+	margin-right:7px;
+}
+
+.bot li a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	padding: 15px 15px;
+	
+}
+
+.bot li a:hover{
+	text-decoration:underline;	
+}
+
+.logo{
+	padding:40px;
+	float:left;
+}
